@@ -3,6 +3,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 /* .mycal{
@@ -57,4 +58,22 @@ body {
 .button-area>button:nth-child(17) {
     min-width: 180px;
     border-radius: 50px;
+}
+
+@media (max-width:470px) {
+    .calculator-area {
+        transform: translateY(-10%);
+        width: 100%;
+    }
+
+    .button-area>button {
+        width: 18vw;
+        height: 18vw;
+        font-size: 5vw;
+    }
+
+    .button-area>button:nth-child(17) {
+        min-width: 40vw;
+        border-radius: 50px;
+    }
 }

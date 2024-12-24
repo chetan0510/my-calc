@@ -1,5 +1,3 @@
-
-
 function run(v) {
     a = document.getElementById('screen');
     
