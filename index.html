@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="calculator-area">
+        <div class="screen">
+            <input type="text" id="screen" onclick="run(display)" disabled>
+        </div>
+        <div class="button-area">
+            <button onclick="run('AC')">AC</button>
+            <button onclick="run('back')">back</button>
+            <button onclick="run('%')">%</button>
+            <button onclick="run('/')">/</button>
+            <button onclick="run(7)" class="num7">7
+            </button>
+            <button onclick="run(8)">8</button>
+            <button onclick="run(9)" class="num9">9
+            </button>
+            <button onclick="run('*')">*</button>
+            <button onclick="run(4)">4</button>
+            <button onclick="run(5)">5</button>
+            <button onclick="run(6)">6</button>
+            <button onclick="run('-')">-</button>
+            <button onclick="run(1)">1</button>
+            <button onclick="run(2)">2</button>
+            <button onclick="run(3)">3</button>
+            <button onclick="run('+')">+</button>
+            <button onclick="run(0)">0
+            </button>
+            <button onclick="run('.')">.</button>
+            <button onclick="run('total')">=</button>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
